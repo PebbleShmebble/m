@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width">
+    <title>Get help nerd</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <style>
+
+
+body {
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+      ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #a81515;
+}
+
+a:link, a:visited {
+  background-color: #c41616;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #2d722fed;
+}
+
+.btn-group .button {
+  background-color: #0faf17; 
+  border: 1px solid green;
+  color: white;
+  padding: 13px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; 
+}
+
+.btn-group .button:hover {
+  background-color: rgb(23, 165, 18); 
+  color: white;
+}
+.innerContainer::-webkit-scrollbar {
+  display: none;
+}
+.innerContainer{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+}
+.mainbox {
+  font-family: 'Lato', sans-serif;
+  /*background-image: url('file:///C:/Users/Pebble/Pictures/websit.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 30px;*/
+  height: 90vh;
+  overflow:auto;
+}
+#rcorners1 {
+  border-radius: 25px;
+  background: #D2E5E8;
+  padding: 2vw; 
+  height: 41%;  
+}
+.square {
+        border:4px solid #000;
+      position: relative;
+      width: 80%;
+    }
+    
+    .square:after {
+      content: "";
+      display: block;
+      padding-bottom: 100%;
+    }
+    
+    .content {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+.innerContainer {
+
+  box-sizing: border-box;
+  margin-left:20vw;
+  margin-top: 6.2vw;
+  text-align:center;
+  height: 73vh;
+  overflow:auto;
+}
+h1 {
+  text-align: center;
+}
+.wrapper {
+  
+  /* Keeping the Text in the 
+     center of the Screen */
+  display: flex;
+  justify-content: center;
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 2s steps(30, end)
+}
+
+/* Typing Effect on Website Loading */
+@keyframes typing {
+  from {
+      width: 0
+  }
+  to {
+      width: 100%
+  }
+}
+    </style>
+
+
+<script>
+  function Texty(){
+    document.getElementById('changeText').innerHTML= 'yay this stuff work, a little bit. i will type a lot to test my new finding, this will be challenging but I can beleieve ic n do this."';
+
+}
+function Text(){
+  document.getElementById('changeText').innerHTML= "<h2>Hi nerd</h2> <br> This is a website that took me many days to setup perfectly so stop complaining and look at nothing becuase I cant figure stuff out ";
+}
+function Tex(){
+  document.getElementById('changeText').innerHTML= "didnt make anything here ";
+}
+function Te(){
+  document.getElementById('changeText').innerHTML= "<li><a href='https://github.com/PebbleShmebble/GETS-HELP' target='_blank'>nothing</a></li>";
+}
+</script>
+
+<body>
+    <div id="rcorners1"class="square">
+        <div class="mainbox">
+            <div class = "innerContainer">
+              <div class="wrapper">
+                <div class="typewriter">
+                  <h1 title ="yes." style = "font-size: 6vh"><strong>This is smart stuff</strong></h1>
+                </div>
+            </div>
+              <ul class= "btn-group">
+                <li><button class = "button" type = "button" onclick="Text()">1</button></li>
+                <li><button class = "button" type = "button" onclick="Texty()">2</button></li>
+                <li><button class = "button" type = "button" onclick="Tex()">3</button></li>
+                <li><button class = "button" type = "button" onclick="Te()">4</button></li>
+                <li style="float:right"><a href="https://www.youtube.com/channel/UCPllcSpsPqMPbMC9W2lopSg" target="_blank">Channel</a></li>
+              </ul>
+              <div id="changeText">
+              <p>
+                <h1> Buy some stuff, nerd</h1>
+                <p>
+                  This is a starter market for random stuff that is probably not allowed(in school).<br>
+                  No, not drugs. but that should be one of my...nvm.<br>
+                  I sell already made products that are very cool.<br>
+                  Some of this stuff might be illegal(idk never checked).
+                  so check some stuff out, maybe you would like it.
+
+      
+              </p>
+              </div>
+              
+            </div>
+          </div>
+      
+    </div>
+
+                
+
+</body>
+</html> 
